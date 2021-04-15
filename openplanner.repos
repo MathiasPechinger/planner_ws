@@ -1,16 +1,16 @@
 repositories:
   autoware/common:
     type: git
-    url: https://github.com/hatem-darweesh/common.git
-    version: develop-hil
+    url: ssh://git@autonomous-driving.hs-augsburg.de:7999/av/common.git
+    version: master
   autoware/core_perception:
     type: git
-    url: https://github.com/hatem-darweesh/core_perception.git
-    version: develop-hil
+    url: ssh://git@autonomous-driving.hs-augsburg.de:7999/av/core_perception.git
+    version: master
   autoware/core_planning:
     type: git
-    url: https://github.com/hatem-darweesh/core_planning.git
-    version: develop-hil
+    url: ssh://git@autonomous-driving.hs-augsburg.de:7999/av/core_planning.git
+    version: master
   autoware/documentation:
     type: git
     url: https://github.com/Autoware-AI/documentation.git
