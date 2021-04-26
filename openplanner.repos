@@ -2,15 +2,15 @@ repositories:
   autoware/common:
     type: git
     url: ssh://git@autonomous-driving.hs-augsburg.de:7999/av/common.git
-    version: master
+    version: feature-xodr
   autoware/core_perception:
     type: git
     url: ssh://git@autonomous-driving.hs-augsburg.de:7999/av/core_perception.git
-    version: master
+    version: feature-xodr
   autoware/core_planning:
     type: git
     url: ssh://git@autonomous-driving.hs-augsburg.de:7999/av/core_planning.git
-    version: master
+    version: feature-xodr
   autoware/documentation:
     type: git
     url: https://github.com/Autoware-AI/documentation.git
