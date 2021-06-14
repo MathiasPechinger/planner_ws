@@ -1,49 +1,25 @@
 repositories:
-  autoware/common:
+  common:
     type: git
     url: ssh://git@autonomous-driving.hs-augsburg.de:7999/av/common.git
     version: feature-xodr
-  autoware/core_perception:
+  core_perception:
     type: git
     url: ssh://git@autonomous-driving.hs-augsburg.de:7999/av/core_perception.git
     version: feature-xodr
-  autoware/core_planning:
+  core_planning:
     type: git
     url: ssh://git@autonomous-driving.hs-augsburg.de:7999/av/core_planning.git
     version: feature-xodr
-  autoware/documentation:
-    type: git
-    url: https://github.com/Autoware-AI/documentation.git
-    version: 1.13.0
-  autoware/messages:
+  messages:
     type: git
     url: https://gitlab.com/hatem-darweesh-autoware.ai/messages.git
     version: openplanner.1.13
-  autoware/simulation:
-    type: git
-    url: https://gitlab.com/hatem-darweesh-autoware.ai/simulation.git
-    version: openplanner.1.13
-  autoware/utilities:
+  utilities:
     type: git
     url: https://github.com/Autoware-AI/utilities.git
     version: 1.13.0
-  autoware/visualization:
+  visualization:
     type: git
     url: https://gitlab.com/hatem-darweesh-autoware.ai/visualization.git
     version: openplanner.1.13
-  drivers/awf_drivers:
-    type: git
-    url: https://github.com/Autoware-AI/drivers.git
-    version: 1.13.0
-  citysim:
-    type: git
-    url: https://github.com/CPFL/osrf_citysim.git
-    version: master
-  car_demo:
-    type: git
-    url: https://github.com/CPFL/car_demo.git
-    version: master
-  drivers/ds4:
-    type: git
-    url: https://github.com/tier4/ds4.git
-    version: master
