@@ -17,7 +17,7 @@ pip3 install -U setuptools
 ### 2. Import the remaining repos:
 
 ```bash
-cd xmsvv-openplanner
+cd planner_ws
 mkdir src/
 vcs import src < openplanner.repos
 ```
@@ -41,7 +41,7 @@ colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
 ### 5. Sourcing
 
 Add the to the setup bash or zsh:
-source ~/xmsvv-openplanner/install/setup.zsh --extend
+source ~/planner_ws/install/setup.zsh --extend
 
 ### Build Issues
 
