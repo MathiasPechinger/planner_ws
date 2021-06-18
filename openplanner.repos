@@ -1,25 +1,25 @@
 repositories:
   common:
     type: git
-    url: ssh://git@autonomous-driving.hs-augsburg.de:7999/av/common.git
-    version: feature-xodr
+    url: git@gitlab.elektrotechnik.hs-augsburg.de:autonomousdriving/vehicle/planner/common.git
+    version: master
   core_perception:
     type: git
-    url: ssh://git@autonomous-driving.hs-augsburg.de:7999/av/core_perception.git
+    url: git@gitlab.elektrotechnik.hs-augsburg.de:autonomousdriving/vehicle/planner/core_perception.git
     version: feature-xodr
   core_planning:
     type: git
-    url: ssh://git@autonomous-driving.hs-augsburg.de:7999/av/core_planning.git
-    version: feature-xodr
+    url: git@gitlab.elektrotechnik.hs-augsburg.de:autonomousdriving/vehicle/planner/core_planning.git
+    version: master
   messages:
     type: git
-    url: https://gitlab.com/hatem-darweesh-autoware.ai/messages.git
+    url: git@gitlab.elektrotechnik.hs-augsburg.de:autonomousdriving/vehicle/planner/messages.git
     version: openplanner.1.13
   utilities:
     type: git
-    url: https://github.com/Autoware-AI/utilities.git
-    version: 1.13.0
+    url: git@gitlab.elektrotechnik.hs-augsburg.de:autonomousdriving/vehicle/planner/utilities.git
+    version: feature-xodr
   visualization:
     type: git
-    url: https://gitlab.com/hatem-darweesh-autoware.ai/visualization.git
+    url: git@gitlab.elektrotechnik.hs-augsburg.de:autonomousdriving/vehicle/planner/visualization.git
     version: openplanner.1.13
