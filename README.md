@@ -1,5 +1,7 @@
 # OpenPlanner for the simulation
 
+This is the repository to setup OpenPlanner.
+
 ![](docs/images/OpenPlannerVis.png)
 
 
@@ -43,19 +45,3 @@ colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
 Add the to the setup bash or zsh:
 source ~/planner_ws/install/setup.zsh --extend
 
-### Build Issues
-
-
-#### Error 1
-colcon build may fail due to:
-CMake Error at CMakeLists.txt:89 (roslint_add_test):
-  Unknown CMake command "roslint_add_test".
-
-Solution:
-in src/autoware/common/op_planner/CMakeLists.txt add roslint to
-find_package(catkin REQUIRED COMPONENTS (line 7)
-
-#### Error 2
-added autoware_can_msgs to requirements
-src/autoware/core_planning/op_direct_controller/CMakeLists.txt
-add the catkin dependency "autoware_can_msgs"

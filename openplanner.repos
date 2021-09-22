@@ -1,25 +1,21 @@
 repositories:
   common:
     type: git
-    url: git@gitlab.elektrotechnik.hs-augsburg.de:autonomousdriving/vehicle/planner/common.git
-    version: master
+    url: https://github.com/MathiasPechinger/common.git
+    version: dev-op.1.15-advancements
   core_perception:
     type: git
-    url: git@gitlab.elektrotechnik.hs-augsburg.de:autonomousdriving/vehicle/planner/core_perception.git
-    version: feature-xodr
+    url: https://github.com/MathiasPechinger/core_perception.git
+    version: dev-op.1.15-advancements
   core_planning:
     type: git
-    url: git@gitlab.elektrotechnik.hs-augsburg.de:autonomousdriving/vehicle/planner/core_planning.git
-    version: master
+    url: https://github.com/MathiasPechinger/core_planning.git
+    version: dev-op.1.15-advancements
   messages:
     type: git
-    url: git@gitlab.elektrotechnik.hs-augsburg.de:autonomousdriving/vehicle/planner/messages.git
-    version: openplanner.1.13
-  utilities:
-    type: git
-    url: git@gitlab.elektrotechnik.hs-augsburg.de:autonomousdriving/vehicle/planner/utilities.git
-    version: feature-xodr
+    url: https://github.com/MathiasPechinger/messages.git
+    version: master
   visualization:
     type: git
-    url: git@gitlab.elektrotechnik.hs-augsburg.de:autonomousdriving/vehicle/planner/visualization.git
-    version: openplanner.1.13
+    url: https://github.com/MathiasPechinger/visualization.git
+    version: dev-op.1.15-advancements
