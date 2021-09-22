@@ -2,8 +2,6 @@
 
 This is the repository to setup OpenPlanner.
 
-![](docs/images/OpenPlannerVis.png)
-
 
 ## Installation
 
