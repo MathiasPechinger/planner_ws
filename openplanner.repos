@@ -2,15 +2,15 @@ repositories:
   common:
     type: git
     url: https://github.com/MathiasPechinger/common.git
-    version: dev-op.1.15-advancements
+    version: openplanner.1.15.uas-augsburg
   core_perception:
     type: git
     url: https://github.com/MathiasPechinger/core_perception.git
-    version: dev-op.1.15-advancements
+    version: openplanner.1.15.uas-augsburg
   core_planning:
     type: git
     url: https://github.com/MathiasPechinger/core_planning.git
-    version: dev-op.1.15-advancements
+    version: openplanner.1.15.uas-augsburg
   messages:
     type: git
     url: https://github.com/MathiasPechinger/messages.git
@@ -18,4 +18,4 @@ repositories:
   visualization:
     type: git
     url: https://github.com/MathiasPechinger/visualization.git
-    version: dev-op.1.15-advancements
+    version: openplanner.1.15.uas-augsburg

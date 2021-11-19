@@ -1,6 +1,7 @@
 # OpenPlanner for the simulation
 
-This is the repository to setup OpenPlanner.
+This is the repository to setup OpenPlanner. The whole system on our stable branch "openplanner.1.15.uas-augsburg" is tested using the ros-scenario-based-testing framework from:
+https://github.com/arminstr/ros_scenario_simulation
 
 ![](docs/images/OpenPlannerVis.png)
 
