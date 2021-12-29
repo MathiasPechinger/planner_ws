@@ -2,20 +2,20 @@ repositories:
   common:
     type: git
     url: https://github.com/MathiasPechinger/common.git
-    version: openplanner.1.15.uas-augsburg
+    version: HIL-Simulator-Software-v1.0
   core_perception:
     type: git
     url: https://github.com/MathiasPechinger/core_perception.git
-    version: openplanner.1.15.uas-augsburg
+    version: HIL-Simulator-Software-v1.0
   core_planning:
     type: git
     url: https://github.com/MathiasPechinger/core_planning.git
-    version: openplanner.1.15.uas-augsburg
+    version: HIL-Simulator-Software-v1.0
   messages:
     type: git
     url: https://github.com/MathiasPechinger/messages.git
-    version: master
+    version: HIL-Simulator-Software-v1.0
   visualization:
     type: git
     url: https://github.com/MathiasPechinger/visualization.git
-    version: openplanner.1.15.uas-augsburg
+    version: HIL-Simulator-Software-v1.0
